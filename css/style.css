@@ -98,10 +98,28 @@ header button {
     padding: 1rem;
     min-height: 50px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar a {
     text-align: center;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+}
+
+.logo {
+    display: inline-block;
+    background-image: url("../asset/Republique-francaise-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hidden {
