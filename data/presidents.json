@@ -8,7 +8,9 @@
                 "fin": "1969"
             }
         ],
-        "photo": "../asset/charles-degaulle.jpg"
+        "photo": "../asset/charles-degaulle.jpg",
+        "naissance": "1890",
+        "deces": "1970"
     },
     {
         "id": "2",
@@ -19,7 +21,9 @@
                 "fin": "1974"
             }
         ],
-        "photo": "../asset/Georges.Pompidou.jpg"
+        "photo": "../asset/Georges.Pompidou.jpg",
+        "naissance": "1911",
+        "deces": "1974"
     },
     {
         "id": "3",
@@ -30,7 +34,9 @@
                 "fin": "1981"
             }
         ],
-        "photo": "../asset/Valéry_Giscard_d’Estaing_1978.jpg"
+        "photo": "../asset/Valéry_Giscard_d’Estaing_1978.jpg",
+        "naissance": "1926",
+        "deces": "Vivant"
     },
     {
         "id": "3",
@@ -41,7 +47,9 @@
                 "fin": "1995"
             }
         ],
-        "photo": "../asset/François_Mitterrand_1984.jpg"
+        "photo": "../asset/François_Mitterrand_1984.jpg",
+        "naissance": "1916",
+        "deces": "1996"
     },
     {
         "id": "3",
@@ -52,7 +60,9 @@
                 "fin": "2007"
             }
         ],
-        "photo": "../asset/jacque_chirac.jpg"
+        "photo": "../asset/jacque_chirac.jpg",
+        "naissance": "1932",
+        "deces": "Vivant"
     },
     {
         "id": "3",
@@ -63,7 +73,9 @@
                 "fin": "2012"
             }
         ],
-        "photo": "../asset/Nicolas_Sarkozy.jpg"
+        "photo": "../asset/Nicolas_Sarkozy.jpg",
+        "naissance": "1955",
+        "deces": "fait compagne"
     },
     {
         "id": "3",
@@ -74,7 +86,9 @@
                 "fin": "2017"
             }
         ],
-        "photo": "../asset/Francois_Hollande.jpeg"
+        "photo": "../asset/Francois_Hollande.jpeg",
+        "naissance": "1954",
+        "deces": "fait compagne"
     },
     {
         "id": "3",
@@ -85,6 +99,8 @@
                 "fin": "actuel"
             }
         ],
-        "photo": "../asset/Emmanuel_Macron.jpg"
+        "photo": "../asset/Emmanuel_Macron.jpg",
+        "naissance": "1976",
+        "deces": "Toujours président"
     }
 ]
