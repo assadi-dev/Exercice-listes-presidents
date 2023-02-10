@@ -126,8 +126,11 @@ header button {
 .card .card-content p {
     margin: 1.5rem 0;
     padding-bottom: 1.5rem;
+    line-height: 2rem;
+}
+
+.card .card-content p:not(:last-of-type) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    max-height: fit-content;
 }
 
 .card-image img {
