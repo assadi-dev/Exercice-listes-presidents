@@ -75,7 +75,7 @@
         ],
         "photo": "../asset/Nicolas_Sarkozy.jpg",
         "naissance": "1955",
-        "deces": "fait compagne"
+        "deces": "Fait compagne"
     },
     {
         "id": "3",
@@ -88,7 +88,7 @@
         ],
         "photo": "../asset/Francois_Hollande.jpeg",
         "naissance": "1954",
-        "deces": "fait compagne"
+        "deces": "Il vit toujours"
     },
     {
         "id": "3",

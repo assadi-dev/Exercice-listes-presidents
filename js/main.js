@@ -2,7 +2,7 @@ $(document).ready(() => {
   //const urlData = location.protocol + location.host + "/";
 
   const generatePicture = (data, i) => {
-    const { nom, photo, mandat } = data;
+    const { nom, photo, mandat, naissance, deces } = data;
     let figure = document.createElement("figure");
     let img = document.createElement("img");
     let figcaption = document.createElement("figcaption");
@@ -11,6 +11,10 @@ $(document).ready(() => {
     $(cardImage).addClass("card-image");
     $(figure).addClass("card white rounded-2 shadow-1 mx-auto hidden");
     $(figcaption).append(`<p> <strong>Nom: </strong>${nom} </p>`);
+    $(figcaption).append(
+      `<p> <strong>Naissance: </strong>${naissance} - ${deces} </p>`
+    );
+
     $(figcaption).append(
       `<p> <strong>mandat: </strong> de: ${mandat[0].debut} à ${mandat[0].fin} </p>`
     );
