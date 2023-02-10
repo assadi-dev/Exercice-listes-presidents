@@ -1,0 +1,90 @@
+[
+    {
+        "id": "1",
+        "nom": "Charles de Gaulle",
+        "mandat": [
+            {
+                "debut": "1959",
+                "fin": "1969"
+            }
+        ],
+        "photo": "../asset/charles-degaulle.jpg"
+    },
+    {
+        "id": "2",
+        "nom": "Georges Pompidou",
+        "mandat": [
+            {
+                "debut": "1969",
+                "fin": "1974"
+            }
+        ],
+        "photo": "../asset/Georges.Pompidou.jpg"
+    },
+    {
+        "id": "3",
+        "nom": "Valéry Giscard d'Estaing",
+        "mandat": [
+            {
+                "debut": "1974",
+                "fin": "1981"
+            }
+        ],
+        "photo": "../asset/Valéry_Giscard_d’Estaing_1978.jpg"
+    },
+    {
+        "id": "3",
+        "nom": "François Mitterrand",
+        "mandat": [
+            {
+                "debut": "1981",
+                "fin": "1995"
+            }
+        ],
+        "photo": "../asset/François_Mitterrand_1984.jpg"
+    },
+    {
+        "id": "3",
+        "nom": "Jacques Chirac",
+        "mandat": [
+            {
+                "debut": "1995",
+                "fin": "2007"
+            }
+        ],
+        "photo": "../asset/jacque_chirac.jpg"
+    },
+    {
+        "id": "3",
+        "nom": "Nicolas Sarkozy",
+        "mandat": [
+            {
+                "debut": "2007",
+                "fin": "2012"
+            }
+        ],
+        "photo": "../asset/Nicolas_Sarkozy.jpg"
+    },
+    {
+        "id": "3",
+        "nom": "François Hollande",
+        "mandat": [
+            {
+                "debut": "2017",
+                "fin": "2017"
+            }
+        ],
+        "photo": "../asset/Francois_Hollande.jpeg"
+    },
+    {
+        "id": "3",
+        "nom": "Emmanuel Macron",
+        "mandat": [
+            {
+                "debut": "2017",
+                "fin": "actuel"
+            }
+        ],
+        "photo": "../asset/Emmanuel_Macron.jpg"
+    }
+]

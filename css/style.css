@@ -1,0 +1,189 @@
+/**Reset**/
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body,
+ul,
+ol,
+figure,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit !important;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+    font-size: 1.6rem;
+}
+
+input {
+    font-size: inherit;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn,
+.navbar-brand {
+    font-size: 2rem !important;
+}
+
+
+/*Theme */
+
+body {
+    background-color: #F7F7F7;
+    margin-bottom: 1.8rem;
+}
+
+header {
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1.8rem 0;
+    background-color: #F7F7F7;
+}
+
+section {
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+    padding: 12px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 2rem;
+}
+
+header button {
+    width: 100%!important;
+}
+
+.card {
+    width: 100%;
+}
+
+.navbar {
+    padding: 1rem;
+    min-height: 50px;
+    width: 100%;
+}
+
+.navbar a {
+    text-align: center;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.apparition {
+    animation: 0.35s fadeIn ease-in-out forwards;
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -webkit-animation: 0.35s fadeIn ease-in-out forwards;
+}
+
+.card .card-content p {
+    margin: 1.5rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    max-height: fit-content;
+}
+
+.card-image img {
+    display: inline-block !important;
+    height: 330px;
+    width: 100%;
+}
+
+#presidents-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 80%);
+    justify-content: center;
+    max-width: 100%;
+    margin: 2rem auto;
+    grid-gap: 2rem;
+}
+
+#presidents-list li {
+    margin: 2rem O;
+    width: 100%;
+    line-height: 2rem !important;
+}
+
+@media screen and (min-width:550px) {
+    .card {
+        max-width: 400px;
+    }
+    .card-image img {
+        height: 55Opx;
+    }
+    header button {
+        width: initial!important;
+    }
+    #presidents-list {
+        max-width: 75vw;
+        grid-template-columns: repeat(auto-fill, 350px);
+    }
+    header,
+    section {
+        width: 100vw;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
