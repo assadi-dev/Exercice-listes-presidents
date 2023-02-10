@@ -70,8 +70,7 @@ header {
 
 section {
     width: 95vw;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 footer {
@@ -81,10 +80,6 @@ footer {
     text-align: center;
     padding: 1.8rem 0;
     background-color: #F7F7F7;
-}
-
-section {
-    padding: 15px;
 }
 
 header {
