@@ -32,20 +32,23 @@ $(document).ready(() => {
     return figure;
   };
 
+  const showPresident = (res) => {
+    res.map((data, i) => {
+      let li = document.createElement("li");
+      setTimeout(() => {
+        let card = generatePicture(data, i);
+        $(card).addClass("apparition");
+        $(card).appendTo(li);
+        $(li).appendTo("#presidents-list");
+      }, 500);
+    });
+  };
+
   $("#show").on("click", function (e) {
-    fetch("../data/presidents.json")
-      .then((res) => res.json())
-      .then((res) => {
-        res.map((data, i) => {
-          let li = document.createElement("li");
-          setTimeout(() => {
-            let card = generatePicture(data, i);
-            $(card).addClass("apparition");
-            $(card).appendTo(li);
-            $(li).appendTo("#presidents-list");
-          }, 500);
-        });
-      });
+    $.getJSON("../data/presidents.json", (data) => {
+      showPresident(data);
+    });
+
     $(this).attr({
       disabled: true,
     });
